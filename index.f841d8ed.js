@@ -1,0 +1,2 @@
+function e(e,r){var t=document.querySelector(e),o=t.querySelectorAll("th")[r],l=t.querySelector("tr").lastElementChild,c=o.cloneNode(!0);t.querySelector("tr").insertBefore(c,l)}Array.from(document.querySelector("tbody").children).forEach(function(e){var r=e.children[1],t=e.lastElementChild,o=r.cloneNode(!0);e.insertBefore(o,t)}),e("tfoot",1),e("thead",1);
+//# sourceMappingURL=index.f841d8ed.js.map
